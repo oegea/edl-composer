@@ -1,5 +1,5 @@
 {
-  "name": "@pietrop/edl-composer",
+  "name": "@oegea/edl-composer",
   "version": "2.0.0",
   "description": "ELD composer can be used to create Edit Decision List. EDL, Edit Decision List, is a plain text format that describes a video sequence. It can be opened in a video editing software to reconnect media to assemble a video sequence",
   "main": "index.js",
@@ -12,12 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pietrop/edl-composer"
+    "url": "https://github.com/oegea/edl-composer"
   },
-  "author": "Pietro Passarelli <pietro.passarelli@gmail.com> (http://pietropassarelli.com)",
   "license": "MIT",
   "dependencies": {
-    "@pietrop/timecode-converter": "^1.0.0"
+    "@oegea/timecode-converter": "^1.0.0"
   },
   "devDependencies": {
     "jest": "^27.2.5"

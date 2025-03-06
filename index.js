@@ -77,9 +77,8 @@ FINAL CUT PRO REEL: SomeOtherReelName REPLACED BY: SomeOthe
 import path from 'path';
 import {
   secondsToTimecode,
-  timecodeToSeconds,
-  shortTimecode
-} from "@pietrop/timecode-converter";
+  timecodeToSeconds
+} from "@oegea/timecode-converter";
 
 
 /**

@@ -1,8 +1,9 @@
 ## Edl Composer
 
+> **IMPORTANT NOTICE:** This is a fork of the original timecode-converter library made by pietrop, updated to be compatible with Node.js 22 and more modern versions of Node. The original library was designed for Node 12 and has not been updated to work with current Node.js environments, so there were some import statements that were failing.
+
 The EDL composer node module can be used to create Edit Decision List. 
 EDL, Edit Decision List, is a plain text format that describes a video sequence. It can be opened in a video editing software to reconnect media to assemble a video sequence. Originally extracted from autoEdit.io
-
 
 ## Setup
 
@@ -11,7 +12,7 @@ EDL, Edit Decision List, is a plain text format that describes a video sequence.
 Clone the repo
  
 ```
-git clone git@github.com:pietrop/edl_composer.git
+git clone git@github.com:oegea/edl_composer.git
 ```
 
 Install dependencies 
@@ -27,11 +28,11 @@ node example-usage.js
 
 ### Setup for usage
 
-To use in your project, the module can be found on [npm as `@pietrop/edl-composer`](https://www.npmjs.com/package/@pietrop/edl-composer)
+To use in your project, the module can be found on [npm as `@oegea/edl-composer`](https://www.npmjs.com/package/@oegea/edl-composer)
 so just run the following to add to your project. 
 
 ```
-npm install @pietrop/edl-composer
+npm install @oegea/edl-composer
 ```
 
 ## Usage
